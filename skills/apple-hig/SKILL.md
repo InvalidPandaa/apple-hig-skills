@@ -54,6 +54,8 @@ python3 scripts/hig.py fetch tab-bars --section "Change log"   # what changed re
 python3 scripts/hig.py fetch "/documentation/swiftui/view/glasseffect(_:in:)"   # check an API
 ```
 
+If `fetch` starts with a note that the page changed after the skills were last synced, the skill summaries on that topic may be out of date: follow the live page where they disagree.
+
 Paths are relative to this skill's folder. From another skill in this set, use `../apple-hig/scripts/hig.py`. Without Python, read `https://developer.apple.com/design/human-interface-guidelines/<slug>` directly. `index.json` lists all ~170 page slugs by area (Getting started, Foundations, Patterns, Components, Inputs, Technologies). Technologies pages (Apple Pay, CarPlay, HealthKit, Sign in with Apple, Siri, widgets and more) have no summary in this set: fetch them when the feature comes up.
 
 When you cite the HIG, link the page and section (`.../sheets#Best-practices`). Don't cite rules from memory without a link.

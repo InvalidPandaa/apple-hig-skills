@@ -200,11 +200,22 @@ Swap `~/.agents/skills` for your agent's folder if it uses a different one. Upda
 Each skill is a short `SKILL.md` with decision tables, rules, brief conflicts and common mistakes.
 The detail lives in `references/`, which the agent reads only when needed.
 
-## Always current: live lookup
+## Staying current
 
-The HIG changes every June and in between. The skills therefore don't copy Apple's text. They hold
-original summaries with links, and a small tool fetches the current page when an agent needs the
-exact rule:
+Apple changes the HIG every June and several times in between. Three things keep the skills in step:
+
+1. **Updates through releases.** The knowledge lives in the skills, as original summaries with links.
+   When Apple changes a page, the skills get updated and you pick it up with `npx skills update`,
+   `claude plugin update apple-hig@apple-hig-skills` or `git pull`.
+2. **A weekly check.** A [GitHub Action](.github/workflows/hig-updates.yml) compares every HIG page with
+   the state the skills were written against (Change log date and content hash in
+   `skills/apple-hig/index.json`). When something changed, it opens an issue listing the changed pages,
+   what their Change log says and which skill files link them.
+3. **A safety net in between.** When an agent fetches a page that changed after the last sync, the
+   lookup tool puts a note on top, so the agent follows the live page rather than an outdated summary.
+
+The lookup tool is also how agents check exact rules, recent changes and topics without a summary
+(CarPlay, HealthKit, Apple Pay and others):
 
 ```sh
 python3 skills/apple-hig/scripts/hig.py search "search field"
@@ -226,10 +237,18 @@ claude plugin validate .                              # Claude plugin manifest
 claude plugin eval . --allow-tools "Bash(python3:*)" WebFetch   # with/without comparison
 ```
 
-After each WWDC: run `hig.py index`, read the HIG's
-[What's new](https://developer.apple.com/design/whats-new/), update the affected skills, and rerun
-`validate.py --online`. Keep the version in `.claude-plugin/plugin.json` and
-`gemini-extension.json` in sync; the validator checks this.
+**Updating after Apple changes the HIG** (the weekly issue tells you when):
+
+```sh
+python3 -I scripts/check_updates.py          # changed/new/removed pages and the skill files that link them
+# update those skill files in your own words, then:
+python3 -I scripts/validate.py --online
+python3 skills/apple-hig/scripts/hig.py index  # record the new state as synced
+```
+
+Then bump the version in `.claude-plugin/plugin.json` and `gemini-extension.json` (the validator
+checks that they match) and commit. The HIG's [What's new](https://developer.apple.com/design/whats-new/)
+page gives a summary of each round of changes.
 
 Contributions are welcome. Write rules in your own words, link the HIG section each rule comes from,
 and verify every API introduced in OS 26 or later against Apple's documentation.

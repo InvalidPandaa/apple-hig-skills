@@ -6,7 +6,9 @@ Usage:
   python3 hig.py fetch <slug|path|url> [--images] [--section <heading>]
                                              print a HIG page or API doc page as Markdown
                                              (--images adds image descriptions)
-  python3 hig.py index                       rebuild index.json from the live HIG table of contents
+  python3 hig.py index                       rebuild index.json from the live HIG: page list, latest
+                                             Change log date and a content hash per page (= the state
+                                             the skills are synced to)
   python3 hig.py selftest                    offline check of the Markdown renderer
 
 Examples:
@@ -17,7 +19,9 @@ Examples:
 Only the Python standard library is used. Content is fetched from developer.apple.com
 at call time and is © Apple Inc.; it is printed, never stored.
 """
+import datetime
 import difflib
+import hashlib
 import json
 import os
 import sys
@@ -217,7 +221,31 @@ def only_section(md, heading):
 
 # ---------------------------------------------------------------- index + search
 
-def build_index():
+def fingerprint(doc):
+    return hashlib.sha256(render(doc).encode()).hexdigest()[:16]
+
+
+def changelog(doc):
+    """[(date, change)] from the page's "Change log" table, newest first."""
+    r, rows, after_heading = Renderer(doc.get("references", {})), [], False
+    for sec in doc.get("primaryContentSections", []):
+        for n in sec.get("content", []):
+            if n.get("type") == "heading":
+                after_heading = n.get("text", "").lower() == "change log"
+            elif after_heading and n.get("type") == "table":
+                for row in n.get("rows", []):
+                    cells = [r.cell(c) for c in row]
+                    try:
+                        day = datetime.datetime.strptime(cells[0], "%B %d, %Y").date().isoformat()
+                    except (ValueError, IndexError):
+                        continue  # header row or unexpected format
+                    rows.append((day, cells[1] if len(cells) > 1 else ""))
+    return sorted(rows, reverse=True)
+
+
+def collect_index():
+    """Walk the live HIG. Each entry gets `updated` (latest Change log date), `hash` (of the page
+    text) and `_log` (the Change log itself, not stored)."""
     entries, seen = [], set()
 
     # depth 1 = area (Foundations, Components, ...); under Components, depth 2 = group.
@@ -230,7 +258,9 @@ def build_index():
         if depth == 1:
             area = title
         if depth >= 1:
-            entries.append({"slug": path.rsplit("/", 1)[-1], "title": title, "area": area, "group": group})
+            log = changelog(doc)
+            entries.append({"slug": path.rsplit("/", 1)[-1], "title": title, "area": area, "group": group,
+                            "updated": log[0][0] if log else "", "hash": fingerprint(doc), "_log": log})
         if depth == 2 and area == "Components":
             group = title
         for sec in doc.get("topicSections", []):
@@ -240,6 +270,19 @@ def build_index():
                     walk(child, area, group, depth + 1)
 
     walk(HIG, "", "", 0)
+    return entries
+
+
+def load_index():
+    try:
+        with open(INDEX) as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return []
+
+
+def build_index():
+    entries = [{k: v for k, v in e.items() if k != "_log"} for e in collect_index()]
     with open(INDEX, "w") as f:
         json.dump(entries, f, indent=1, ensure_ascii=False)
         f.write("\n")
@@ -272,9 +315,20 @@ ALIASES = {
 }
 
 
+def stale_note(path, doc):
+    """A warning when a HIG page changed after the date the skills were synced to."""
+    entry = next((e for e in load_index() if HIG + "/" + e["slug"] == path), None)
+    if not entry or fingerprint(doc) == entry.get("hash"):
+        return ""
+    synced = entry.get("updated", "")
+    newer = "; ".join(f"{d}: {c}" for d, c in changelog(doc) if d > synced)
+    return ("> **Note:** this page changed after the skills were last synced."
+            + (f" {newer}" if newer else "") + "\n"
+            "> Where this page and a skill's summary disagree, follow this page.\n\n")
+
+
 def search(query):
-    with open(INDEX) as f:
-        entries = json.load(f)
+    entries = load_index()
     q = query.lower()
     words = q.replace("-", " ").split()
 
@@ -327,6 +381,13 @@ def selftest():
     assert "[image: A tab bar]" in md
     sec = only_section(md, "best practices")
     assert "Use tabs" in sec and "later" not in sec
+    log_doc = {"references": {}, "primaryContentSections": [{"content": [
+        {"type": "heading", "level": 2, "text": "Change log"},
+        {"type": "table", "rows": [
+            [[{"type": "paragraph", "inlineContent": [{"type": "text", "text": t}]}] for t in row]
+            for row in (("Date", "Changes"), ("March 24, 2026", "Button placement."), ("June 9, 2025", "Liquid Glass."))]}]}]}
+    assert changelog(log_doc) == [("2026-03-24", "Button placement."), ("2025-06-09", "Liquid Glass.")], changelog(log_doc)
+    assert changelog(doc) == []
     assert to_path("Tab-Bars") == HIG + "/tab-bars"
     assert to_path("https://developer.apple.com/design/human-interface-guidelines/tab-bars#Best") == HIG + "/tab-bars"
     assert to_path("/documentation/SwiftUI/View") == "/documentation/swiftui/view"
@@ -346,8 +407,11 @@ def main(argv):
             i = args.index("--section")
             section = " ".join(args[i + 1:])
             args = args[:i]
-        md = render(get_json(to_path(" ".join(args))), images)
-        print(only_section(md, section) if section else md, end="")
+        path = to_path(" ".join(args))
+        doc = get_json(path)
+        md = render(doc, images)
+        note = stale_note(path, doc) if path.startswith(HIG + "/") else ""
+        print(note + (only_section(md, section) if section else md), end="")
     elif cmd == "search" and args:
         search(" ".join(args))
     elif cmd == "index":

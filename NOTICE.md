@@ -13,7 +13,8 @@ The Human Interface Guidelines and the Apple developer documentation are
 original summaries written for this project and link to the source pages.
 `skills/apple-hig/scripts/hig.py` fetches pages from developer.apple.com at
 the moment an agent asks for them and prints them; it does not store them.
-`skills/apple-hig/index.json` lists page titles and URL slugs only.
+`skills/apple-hig/index.json` lists page titles, URL slugs, the date of each page's latest
+Change log entry and a hash of its text, which are used to detect changes. It holds no page text.
 
 The MIT license in `LICENSE` covers the original text and code in this
 repository, not Apple's content.

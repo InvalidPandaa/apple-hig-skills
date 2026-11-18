@@ -3,1032 +3,1376 @@
   "slug": "getting-started",
   "title": "Getting started",
   "area": "Getting started",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "3328881ab4fb570f"
  },
  {
   "slug": "design-principles",
   "title": "Design principles",
   "area": "Getting started",
-  "group": ""
+  "group": "",
+  "updated": "2026-06-08",
+  "hash": "b5bf320f5cbf1238"
  },
  {
   "slug": "designing-for-ios",
   "title": "Designing for iOS",
   "area": "Getting started",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "486747258aa9bbba"
  },
  {
   "slug": "designing-for-ipados",
   "title": "Designing for iPadOS",
   "area": "Getting started",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "764c71e0a9642a61"
  },
  {
   "slug": "designing-for-macos",
   "title": "Designing for macOS",
   "area": "Getting started",
-  "group": ""
+  "group": "",
+  "updated": "2026-10-28",
+  "hash": "681c64ad51fac750"
  },
  {
   "slug": "designing-for-tvos",
   "title": "Designing for tvOS",
   "area": "Getting started",
-  "group": ""
+  "group": "",
+  "updated": "2022-09-14",
+  "hash": "97cf2ddaf4ecd473"
  },
  {
   "slug": "designing-for-visionos",
   "title": "Designing for visionOS",
   "area": "Getting started",
-  "group": ""
+  "group": "",
+  "updated": "2024-02-02",
+  "hash": "d422811ab1a356e1"
  },
  {
   "slug": "designing-for-watchos",
   "title": "Designing for watchOS",
   "area": "Getting started",
-  "group": ""
+  "group": "",
+  "updated": "2023-06-05",
+  "hash": "467c137a1da6f044"
  },
  {
   "slug": "designing-for-games",
   "title": "Designing for games",
   "area": "Getting started",
-  "group": ""
+  "group": "",
+  "updated": "2025-06-09",
+  "hash": "a83b18d6ea7fb14f"
  },
  {
   "slug": "designing-for-iphone-duo",
   "title": "Designing for iPhone Duo",
   "area": "Getting started",
-  "group": ""
+  "group": "",
+  "updated": "2026-09-09",
+  "hash": "0a714c29c569c635"
  },
  {
   "slug": "foundations",
   "title": "Foundations",
   "area": "Foundations",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "f9414af8cd43f0dd"
  },
  {
   "slug": "accessibility",
   "title": "Accessibility",
   "area": "Foundations",
-  "group": ""
+  "group": "",
+  "updated": "2025-06-09",
+  "hash": "4d87c3f207088aac"
  },
  {
   "slug": "app-icons",
   "title": "App icons",
   "area": "Foundations",
-  "group": ""
+  "group": "",
+  "updated": "2026-10-28",
+  "hash": "db17cc9ae342a018"
  },
  {
   "slug": "branding",
   "title": "Branding",
   "area": "Foundations",
-  "group": ""
+  "group": "",
+  "updated": "2026-09-09",
+  "hash": "c184e57e740bd41e"
  },
  {
   "slug": "color",
   "title": "Color",
   "area": "Foundations",
-  "group": ""
+  "group": "",
+  "updated": "2025-12-16",
+  "hash": "2b5e1a8f52313c71"
  },
  {
   "slug": "dark-mode",
   "title": "Dark Mode",
   "area": "Foundations",
-  "group": ""
+  "group": "",
+  "updated": "2024-08-06",
+  "hash": "b2988f2979f3e1ed"
  },
  {
   "slug": "icons",
   "title": "Icons",
   "area": "Foundations",
-  "group": ""
+  "group": "",
+  "updated": "2025-06-09",
+  "hash": "23deb65a71cdfeaa"
  },
  {
   "slug": "images",
   "title": "Images",
   "area": "Foundations",
-  "group": ""
+  "group": "",
+  "updated": "2025-12-16",
+  "hash": "8f994c890e47de0c"
  },
  {
   "slug": "immersive-experiences",
   "title": "Immersive experiences",
   "area": "Foundations",
-  "group": ""
+  "group": "",
+  "updated": "2025-06-09",
+  "hash": "b3c9b47fd13ed099"
  },
  {
   "slug": "inclusion",
   "title": "Inclusion",
   "area": "Foundations",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "0f5dc32928c6cbfe"
  },
  {
   "slug": "layout",
   "title": "Layout",
   "area": "Foundations",
-  "group": ""
+  "group": "",
+  "updated": "2026-09-09",
+  "hash": "9bb09295e8573f90"
  },
  {
   "slug": "materials",
   "title": "Materials",
   "area": "Foundations",
-  "group": ""
+  "group": "",
+  "updated": "2025-09-09",
+  "hash": "08e7990cf6b5e581"
  },
  {
   "slug": "motion",
   "title": "Motion",
   "area": "Foundations",
-  "group": ""
+  "group": "",
+  "updated": "2025-09-09",
+  "hash": "bb5ba82f9b9ceb61"
  },
  {
   "slug": "privacy",
   "title": "Privacy",
   "area": "Foundations",
-  "group": ""
+  "group": "",
+  "updated": "2023-06-21",
+  "hash": "bf3d09870b68424d"
  },
  {
   "slug": "right-to-left",
   "title": "Right to left",
   "area": "Foundations",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "e6e465fc6ae43237"
  },
  {
   "slug": "sf-symbols",
   "title": "SF Symbols",
   "area": "Foundations",
-  "group": ""
+  "group": "",
+  "updated": "2025-07-28",
+  "hash": "3e4af84694aab1e0"
  },
  {
   "slug": "spatial-layout",
   "title": "Spatial layout",
   "area": "Foundations",
-  "group": ""
+  "group": "",
+  "updated": "2024-03-29",
+  "hash": "90f5fd7f4b9cc623"
  },
  {
   "slug": "typography",
   "title": "Typography",
   "area": "Foundations",
-  "group": ""
+  "group": "",
+  "updated": "2025-12-16",
+  "hash": "91e4cb60edc6bbb1"
  },
  {
   "slug": "writing",
   "title": "Writing",
   "area": "Foundations",
-  "group": ""
+  "group": "",
+  "updated": "2025-12-16",
+  "hash": "aa94137b45d182a7"
  },
  {
   "slug": "patterns",
   "title": "Patterns",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "e0bb60badf0cb9da"
  },
  {
   "slug": "charting-data",
   "title": "Charting data",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "2022-09-23",
+  "hash": "0e34221808a52691"
  },
  {
   "slug": "collaboration-and-sharing",
   "title": "Collaboration and sharing",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "2023-12-05",
+  "hash": "e538ae86160eff78"
  },
  {
   "slug": "drag-and-drop",
   "title": "Drag and drop",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "2023-10-24",
+  "hash": "5c3be58336fb87dd"
  },
  {
   "slug": "entering-data",
   "title": "Entering data",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "2023-06-21",
+  "hash": "6b9ff4adb3447da1"
  },
  {
   "slug": "feedback",
   "title": "Feedback",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "67d778601fee72bf"
  },
  {
   "slug": "file-management",
   "title": "File management",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "2024-06-10",
+  "hash": "e04478404a667517"
  },
  {
   "slug": "going-full-screen",
   "title": "Going full screen",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "2025-06-09",
+  "hash": "41bb75f630426bb1"
  },
  {
   "slug": "launching",
   "title": "Launching",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "2024-06-10",
+  "hash": "ea09ff77538b686c"
  },
  {
   "slug": "live-viewing-apps",
   "title": "Live-viewing apps",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "92c753fec2e6a9ab"
  },
  {
   "slug": "loading",
   "title": "Loading",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "2025-06-09",
+  "hash": "3adb6b3e9205664d"
  },
  {
   "slug": "managing-accounts",
   "title": "Managing accounts",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "4517a931712f2523"
  },
  {
   "slug": "managing-notifications",
   "title": "Managing notifications",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "cfb27f53fd50fd35"
  },
  {
   "slug": "modality",
   "title": "Modality",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "2023-12-05",
+  "hash": "e80f42170d001049"
  },
  {
   "slug": "multitasking",
   "title": "Multitasking",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "2025-06-09",
+  "hash": "a10a5140ebe03981"
  },
  {
   "slug": "offering-help",
   "title": "Offering help",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "2023-12-05",
+  "hash": "df45e7b7f5a7e633"
  },
  {
   "slug": "onboarding",
   "title": "Onboarding",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "2024-06-10",
+  "hash": "ff005e4706c0718d"
  },
  {
   "slug": "playing-audio",
   "title": "Playing audio",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "2023-06-21",
+  "hash": "41e9f7690c0aba85"
  },
  {
   "slug": "playing-haptics",
   "title": "Playing haptics",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "2024-05-07",
+  "hash": "f96e58ab90076d4e"
  },
  {
   "slug": "playing-video",
   "title": "Playing video",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "2023-09-12",
+  "hash": "c86c72f95fcd9e70"
  },
  {
   "slug": "printing",
   "title": "Printing",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "4d9d0e8bbdfa0727"
  },
  {
   "slug": "ratings-and-reviews",
   "title": "Ratings and reviews",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "2023-09-12",
+  "hash": "cc4daa4b8208e478"
  },
  {
   "slug": "searching",
   "title": "Searching",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "2026-06-08",
+  "hash": "266f0338654da245"
  },
  {
   "slug": "settings",
   "title": "Settings",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "2024-06-10",
+  "hash": "79f8c2aa135a522b"
  },
  {
   "slug": "undo-and-redo",
   "title": "Undo and redo",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "c6f38865d3934a32"
  },
  {
   "slug": "workouts",
   "title": "Workouts",
   "area": "Patterns",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "c6f46eb580404b86"
  },
  {
   "slug": "components",
   "title": "Components",
   "area": "Components",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "ace9dc34e0afac34"
  },
  {
   "slug": "content",
   "title": "Content",
   "area": "Components",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "f524c2fa0404c862"
  },
  {
   "slug": "charts",
   "title": "Charts",
   "area": "Components",
-  "group": "Content"
+  "group": "Content",
+  "updated": "2022-09-23",
+  "hash": "e5ea58390d5fbc2a"
  },
  {
   "slug": "image-views",
   "title": "Image views",
   "area": "Components",
-  "group": "Content"
+  "group": "Content",
+  "updated": "2023-06-21",
+  "hash": "9f7fde0ac92dce58"
  },
  {
   "slug": "text-views",
   "title": "Text views",
   "area": "Components",
-  "group": "Content"
+  "group": "Content",
+  "updated": "2023-06-05",
+  "hash": "d303db1c4ae9ac9b"
  },
  {
   "slug": "web-views",
   "title": "Web views",
   "area": "Components",
-  "group": "Content"
+  "group": "Content",
+  "updated": "",
+  "hash": "bda6a5654a923461"
  },
  {
   "slug": "layout-and-organization",
   "title": "Layout and organization",
   "area": "Components",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "f02e2ef431d4d235"
  },
  {
   "slug": "boxes",
   "title": "Boxes",
   "area": "Components",
-  "group": "Layout and organization"
+  "group": "Layout and organization",
+  "updated": "",
+  "hash": "c6ba70acd50f38b6"
  },
  {
   "slug": "collections",
   "title": "Collections",
   "area": "Components",
-  "group": "Layout and organization"
+  "group": "Layout and organization",
+  "updated": "",
+  "hash": "65f473c5faf12cb6"
  },
  {
   "slug": "column-views",
   "title": "Column views",
   "area": "Components",
-  "group": "Layout and organization"
+  "group": "Layout and organization",
+  "updated": "",
+  "hash": "e0d58b76d49d1e0b"
  },
  {
   "slug": "disclosure-controls",
   "title": "Disclosure controls",
   "area": "Components",
-  "group": "Layout and organization"
+  "group": "Layout and organization",
+  "updated": "",
+  "hash": "adce2cdcf9a07df9"
  },
  {
   "slug": "labels",
   "title": "Labels",
   "area": "Components",
-  "group": "Layout and organization"
+  "group": "Layout and organization",
+  "updated": "2023-06-05",
+  "hash": "f313967dfc0a90e2"
  },
  {
   "slug": "lists-and-tables",
   "title": "Lists and tables",
   "area": "Components",
-  "group": "Layout and organization"
+  "group": "Layout and organization",
+  "updated": "2023-06-21",
+  "hash": "4fcba829872ad890"
  },
  {
   "slug": "lockups",
   "title": "Lockups",
   "area": "Components",
-  "group": "Layout and organization"
+  "group": "Layout and organization",
+  "updated": "",
+  "hash": "5e76e82223e0b3e1"
  },
  {
   "slug": "outline-views",
   "title": "Outline views",
   "area": "Components",
-  "group": "Layout and organization"
+  "group": "Layout and organization",
+  "updated": "",
+  "hash": "094edf80848a278e"
  },
  {
   "slug": "split-views",
   "title": "Split views",
   "area": "Components",
-  "group": "Layout and organization"
+  "group": "Layout and organization",
+  "updated": "2025-06-09",
+  "hash": "69a6915701a4d480"
  },
  {
   "slug": "tab-views",
   "title": "Tab views",
   "area": "Components",
-  "group": "Layout and organization"
+  "group": "Layout and organization",
+  "updated": "2023-06-05",
+  "hash": "50b326a28a9e71c9"
  },
  {
   "slug": "menus-and-actions",
   "title": "Menus and actions",
   "area": "Components",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "34224b8c7354dba0"
  },
  {
   "slug": "activity-views",
   "title": "Activity views",
   "area": "Components",
-  "group": "Menus and actions"
+  "group": "Menus and actions",
+  "updated": "",
+  "hash": "a5ebda458c55a213"
  },
  {
   "slug": "buttons",
   "title": "Buttons",
   "area": "Components",
-  "group": "Menus and actions"
+  "group": "Menus and actions",
+  "updated": "2025-12-16",
+  "hash": "c4e00e2a6bc173ef"
  },
  {
   "slug": "context-menus",
   "title": "Context menus",
   "area": "Components",
-  "group": "Menus and actions"
+  "group": "Menus and actions",
+  "updated": "2023-12-05",
+  "hash": "99a4e869be0d5448"
  },
  {
   "slug": "dock-menus",
   "title": "Dock menus",
   "area": "Components",
-  "group": "Menus and actions"
+  "group": "Menus and actions",
+  "updated": "",
+  "hash": "423ab1fffa0a0b1c"
  },
  {
   "slug": "edit-menus",
   "title": "Edit menus",
   "area": "Components",
-  "group": "Menus and actions"
+  "group": "Menus and actions",
+  "updated": "2023-06-21",
+  "hash": "726fcd30afee5544"
  },
  {
   "slug": "home-screen-quick-actions",
   "title": "Home Screen quick actions",
   "area": "Components",
-  "group": "Menus and actions"
+  "group": "Menus and actions",
+  "updated": "",
+  "hash": "ed4166b5b32f6b6c"
  },
  {
   "slug": "menus",
   "title": "Menus",
   "area": "Components",
-  "group": "Menus and actions"
+  "group": "Menus and actions",
+  "updated": "2026-06-08",
+  "hash": "3ead6f9f87d9a95d"
  },
  {
   "slug": "ornaments",
   "title": "Ornaments",
   "area": "Components",
-  "group": "Menus and actions"
+  "group": "Menus and actions",
+  "updated": "2024-02-02",
+  "hash": "656d217333c78859"
  },
  {
   "slug": "pop-up-buttons",
   "title": "Pop-up buttons",
   "area": "Components",
-  "group": "Menus and actions"
+  "group": "Menus and actions",
+  "updated": "2023-10-24",
+  "hash": "0be214b7329fd5fd"
  },
  {
   "slug": "pull-down-buttons",
   "title": "Pull-down buttons",
   "area": "Components",
-  "group": "Menus and actions"
+  "group": "Menus and actions",
+  "updated": "2022-09-14",
+  "hash": "93795bd0a0be4bb1"
  },
  {
   "slug": "the-menu-bar",
   "title": "The menu bar",
   "area": "Components",
-  "group": "Menus and actions"
+  "group": "Menus and actions",
+  "updated": "2025-06-09",
+  "hash": "10ad11bd803dd128"
  },
  {
   "slug": "toolbars",
   "title": "Toolbars",
   "area": "Components",
-  "group": "Menus and actions"
+  "group": "Menus and actions",
+  "updated": "2025-12-16",
+  "hash": "03c36add5b553174"
  },
  {
   "slug": "navigation-and-search",
   "title": "Navigation and search",
   "area": "Components",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "3ee1fb6e1784ba1d"
  },
  {
   "slug": "path-controls",
   "title": "Path controls",
   "area": "Components",
-  "group": "Navigation and search"
+  "group": "Navigation and search",
+  "updated": "",
+  "hash": "a7a022b2112b60aa"
  },
  {
   "slug": "search-fields",
   "title": "Search fields",
   "area": "Components",
-  "group": "Navigation and search"
+  "group": "Navigation and search",
+  "updated": "2026-06-08",
+  "hash": "7d82f0cd2f4693ab"
  },
  {
   "slug": "sidebars",
   "title": "Sidebars",
   "area": "Components",
-  "group": "Navigation and search"
+  "group": "Navigation and search",
+  "updated": "2026-06-08",
+  "hash": "00350a5c8c6e1733"
  },
  {
   "slug": "tab-bars",
   "title": "Tab bars",
   "area": "Components",
-  "group": "Navigation and search"
+  "group": "Navigation and search",
+  "updated": "2026-06-08",
+  "hash": "84f10416552c7c66"
  },
  {
   "slug": "token-fields",
   "title": "Token fields",
   "area": "Components",
-  "group": "Navigation and search"
+  "group": "Navigation and search",
+  "updated": "",
+  "hash": "ef3e5f8dd3b7fbc7"
  },
  {
   "slug": "presentation",
   "title": "Presentation",
   "area": "Components",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "ddc46aa7d91fea1a"
  },
  {
   "slug": "action-sheets",
   "title": "Action sheets",
   "area": "Components",
-  "group": "Presentation"
+  "group": "Presentation",
+  "updated": "",
+  "hash": "f151751ce4af2281"
  },
  {
   "slug": "alerts",
   "title": "Alerts",
   "area": "Components",
-  "group": "Presentation"
+  "group": "Presentation",
+  "updated": "2024-02-02",
+  "hash": "3f2640240730e4e2"
  },
  {
   "slug": "page-controls",
   "title": "Page controls",
   "area": "Components",
-  "group": "Presentation"
+  "group": "Presentation",
+  "updated": "2023-06-21",
+  "hash": "3ebe70d0e34a0c5a"
  },
  {
   "slug": "panels",
   "title": "Panels",
   "area": "Components",
-  "group": "Presentation"
+  "group": "Presentation",
+  "updated": "",
+  "hash": "2d53563b03fe2c14"
  },
  {
   "slug": "popovers",
   "title": "Popovers",
   "area": "Components",
-  "group": "Presentation"
+  "group": "Presentation",
+  "updated": "",
+  "hash": "2143bfab56b026d9"
  },
  {
   "slug": "scroll-views",
   "title": "Scroll views",
   "area": "Components",
-  "group": "Presentation"
+  "group": "Presentation",
+  "updated": "2026-06-08",
+  "hash": "dcd0ac0b803270c3"
  },
  {
   "slug": "sheets",
   "title": "Sheets",
   "area": "Components",
-  "group": "Presentation"
+  "group": "Presentation",
+  "updated": "2026-03-24",
+  "hash": "d50e08db21e94ab3"
  },
  {
   "slug": "windows",
   "title": "Windows",
   "area": "Components",
-  "group": "Presentation"
+  "group": "Presentation",
+  "updated": "2025-06-09",
+  "hash": "b57178b9eb114e7d"
  },
  {
   "slug": "selection-and-input",
   "title": "Selection and input",
   "area": "Components",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "76f341eb98a19f46"
  },
  {
   "slug": "color-wells",
   "title": "Color wells",
   "area": "Components",
-  "group": "Selection and input"
+  "group": "Selection and input",
+  "updated": "",
+  "hash": "0264be81dfd7414c"
  },
  {
   "slug": "combo-boxes",
   "title": "Combo boxes",
   "area": "Components",
-  "group": "Selection and input"
+  "group": "Selection and input",
+  "updated": "",
+  "hash": "01edc9c66910c216"
  },
  {
   "slug": "digit-entry-views",
   "title": "Digit entry views",
   "area": "Components",
-  "group": "Selection and input"
+  "group": "Selection and input",
+  "updated": "",
+  "hash": "3c50ad857fca07f5"
  },
  {
   "slug": "image-wells",
   "title": "Image wells",
   "area": "Components",
-  "group": "Selection and input"
+  "group": "Selection and input",
+  "updated": "",
+  "hash": "2becdc292180edc4"
  },
  {
   "slug": "pickers",
   "title": "Pickers",
   "area": "Components",
-  "group": "Selection and input"
+  "group": "Selection and input",
+  "updated": "2023-06-05",
+  "hash": "ff1d46efcf9fac34"
  },
  {
   "slug": "segmented-controls",
   "title": "Segmented controls",
   "area": "Components",
-  "group": "Selection and input"
+  "group": "Selection and input",
+  "updated": "2023-06-21",
+  "hash": "94c07c0d3c2237d8"
  },
  {
   "slug": "sliders",
   "title": "Sliders",
   "area": "Components",
-  "group": "Selection and input"
+  "group": "Selection and input",
+  "updated": "2023-06-21",
+  "hash": "898806d365b7f411"
  },
  {
   "slug": "steppers",
   "title": "Steppers",
   "area": "Components",
-  "group": "Selection and input"
+  "group": "Selection and input",
+  "updated": "",
+  "hash": "68a0e8c13f425b5a"
  },
  {
   "slug": "text-fields",
   "title": "Text fields",
   "area": "Components",
-  "group": "Selection and input"
+  "group": "Selection and input",
+  "updated": "2023-06-05",
+  "hash": "581d185e11fa5864"
  },
  {
   "slug": "toggles",
   "title": "Toggles",
   "area": "Components",
-  "group": "Selection and input"
+  "group": "Selection and input",
+  "updated": "2024-03-29",
+  "hash": "43b010d9450805f0"
  },
  {
   "slug": "virtual-keyboards",
   "title": "Virtual keyboards",
   "area": "Components",
-  "group": "Selection and input"
+  "group": "Selection and input",
+  "updated": "2025-06-09",
+  "hash": "e3ff8a806af74edc"
  },
  {
   "slug": "status",
   "title": "Status",
   "area": "Components",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "ab15b4e7e09e599f"
  },
  {
   "slug": "activity-rings",
   "title": "Activity rings",
   "area": "Components",
-  "group": "Status"
+  "group": "Status",
+  "updated": "2024-03-29",
+  "hash": "a1a4f66755e81800"
  },
  {
   "slug": "gauges",
   "title": "Gauges",
   "area": "Components",
-  "group": "Status"
+  "group": "Status",
+  "updated": "2022-09-23",
+  "hash": "6ac2e7384fefc00e"
  },
  {
   "slug": "progress-indicators",
   "title": "Progress indicators",
   "area": "Components",
-  "group": "Status"
+  "group": "Status",
+  "updated": "2023-09-12",
+  "hash": "4a851d652da8376a"
  },
  {
   "slug": "rating-indicators",
   "title": "Rating indicators",
   "area": "Components",
-  "group": "Status"
+  "group": "Status",
+  "updated": "2022-09-23",
+  "hash": "652900a57665cab4"
  },
  {
   "slug": "system-experiences",
   "title": "System experiences",
   "area": "Components",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "e21edeafd55422e5"
  },
  {
   "slug": "app-shortcuts",
   "title": "App Shortcuts",
   "area": "Components",
-  "group": "System experiences"
+  "group": "System experiences",
+  "updated": "2026-06-08",
+  "hash": "bc1c13c1403082b6"
  },
  {
   "slug": "complications",
   "title": "Complications",
   "area": "Components",
-  "group": "System experiences"
+  "group": "System experiences",
+  "updated": "2023-10-24",
+  "hash": "7eeaa7b53dcfc096"
  },
  {
   "slug": "controls",
   "title": "Controls",
   "area": "Components",
-  "group": "System experiences"
+  "group": "System experiences",
+  "updated": "2024-06-10",
+  "hash": "4571d4cdce672068"
  },
  {
   "slug": "live-activities",
   "title": "Live Activities",
   "area": "Components",
-  "group": "System experiences"
+  "group": "System experiences",
+  "updated": "2026-10-13",
+  "hash": "c3f4f13af02e7807"
  },
  {
   "slug": "notifications",
   "title": "Notifications",
   "area": "Components",
-  "group": "System experiences"
+  "group": "System experiences",
+  "updated": "2023-10-24",
+  "hash": "a11e8ce052b4b647"
  },
  {
   "slug": "snippets",
   "title": "Snippets",
   "area": "Components",
-  "group": "System experiences"
+  "group": "System experiences",
+  "updated": "2026-06-08",
+  "hash": "9b0a0629d95c04de"
  },
  {
   "slug": "status-bars",
   "title": "Status bars",
   "area": "Components",
-  "group": "System experiences"
+  "group": "System experiences",
+  "updated": "",
+  "hash": "3b6c53d39617342c"
  },
  {
   "slug": "top-shelf",
   "title": "Top Shelf",
   "area": "Components",
-  "group": "System experiences"
+  "group": "System experiences",
+  "updated": "",
+  "hash": "c4469fcdec749b38"
  },
  {
   "slug": "watch-faces",
   "title": "Watch faces",
   "area": "Components",
-  "group": "System experiences"
+  "group": "System experiences",
+  "updated": "",
+  "hash": "795ef9311fac1ef1"
  },
  {
   "slug": "widgets",
   "title": "Widgets",
   "area": "Components",
-  "group": "System experiences"
+  "group": "System experiences",
+  "updated": "2026-10-13",
+  "hash": "800175ed7eb4a74a"
  },
  {
   "slug": "inputs",
   "title": "Inputs",
   "area": "Inputs",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "303f468772f06f53"
  },
  {
   "slug": "action-button",
   "title": "Action button",
   "area": "Inputs",
-  "group": ""
+  "group": "",
+  "updated": "2023-09-12",
+  "hash": "67214e5fa32e8495"
  },
  {
   "slug": "apple-pencil-and-scribble",
   "title": "Apple Pencil and Scribble",
   "area": "Inputs",
-  "group": ""
+  "group": "",
+  "updated": "2024-05-07",
+  "hash": "9fe682a7a44752f7"
  },
  {
   "slug": "camera-control",
   "title": "Camera Control",
   "area": "Inputs",
-  "group": ""
+  "group": "",
+  "updated": "2024-09-09",
+  "hash": "3a4de1f965529fda"
  },
  {
   "slug": "digital-crown",
   "title": "Digital Crown",
   "area": "Inputs",
-  "group": ""
+  "group": "",
+  "updated": "2023-12-05",
+  "hash": "0c939956dabb4ab5"
  },
  {
   "slug": "eyes",
   "title": "Eyes",
   "area": "Inputs",
-  "group": ""
+  "group": "",
+  "updated": "2024-06-10",
+  "hash": "b611af5bf23f820f"
  },
  {
   "slug": "focus-and-selection",
   "title": "Focus and selection",
   "area": "Inputs",
-  "group": ""
+  "group": "",
+  "updated": "2023-10-24",
+  "hash": "cf0982a3ed592531"
  },
  {
   "slug": "game-controls",
   "title": "Game controls",
   "area": "Inputs",
-  "group": ""
+  "group": "",
+  "updated": "2025-06-09",
+  "hash": "58b88a0b650e7954"
  },
  {
   "slug": "gestures",
   "title": "Gestures",
   "area": "Inputs",
-  "group": ""
+  "group": "",
+  "updated": "2026-10-28",
+  "hash": "2899259edb4b4e33"
  },
  {
   "slug": "gyro-and-accelerometer",
   "title": "Gyroscope and accelerometer",
   "area": "Inputs",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "34ce28b1d9928e7c"
  },
  {
   "slug": "keyboards",
   "title": "Keyboards",
   "area": "Inputs",
-  "group": ""
+  "group": "",
+  "updated": "2025-06-09",
+  "hash": "3e30f0ed3da98ceb"
  },
  {
   "slug": "nearby-interactions",
   "title": "Nearby interactions",
   "area": "Inputs",
-  "group": ""
+  "group": "",
+  "updated": "2023-06-21",
+  "hash": "cd2d2733cd2b0af7"
  },
  {
   "slug": "pointing-devices",
   "title": "Pointing devices",
   "area": "Inputs",
-  "group": ""
+  "group": "",
+  "updated": "2026-10-28",
+  "hash": "b413ce0b6ec39342"
  },
  {
   "slug": "remotes",
   "title": "Remotes",
   "area": "Inputs",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "e09b26234c82bc05"
  },
  {
   "slug": "technologies",
   "title": "Technologies",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "adb3e3eff92b0351"
  },
  {
   "slug": "airplay",
   "title": "AirPlay",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "2023-05-02",
+  "hash": "2482d1db3d5095bc"
  },
  {
   "slug": "always-on",
   "title": "Always On",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "2023-09-12",
+  "hash": "2babb4dd2aa68d40"
  },
  {
   "slug": "app-clips",
   "title": "App Clips",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "2025-06-09",
+  "hash": "2543a7d79f1a7e26"
  },
  {
   "slug": "apple-in-app-purchase",
   "title": "Apple In-App Purchase",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "2026-09-17",
+  "hash": "3b215a4ce908a50b"
  },
  {
   "slug": "apple-pay",
   "title": "Apple Pay",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "2026-06-08",
+  "hash": "981b9643ff62c455"
  },
  {
   "slug": "augmented-reality",
   "title": "Augmented reality",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "3121bfc7c3017378"
  },
  {
   "slug": "carekit",
   "title": "CareKit",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "2023-05-02",
+  "hash": "48a322355a64f5c4"
  },
  {
   "slug": "carplay",
   "title": "CarPlay",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "2023-05-02",
+  "hash": "f2a301fd5e73860d"
  },
  {
   "slug": "game-center",
   "title": "Game Center",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "2025-06-09",
+  "hash": "5f0d80709be99c62"
  },
  {
   "slug": "generative-ai",
   "title": "Generative AI",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "2026-06-08",
+  "hash": "0e8f9bdea3f71407"
  },
  {
   "slug": "healthkit",
   "title": "HealthKit",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "5bc0511799283ec5"
  },
  {
   "slug": "homekit",
   "title": "HomeKit",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "2023-05-02",
+  "hash": "7921132f43c739b5"
  },
  {
   "slug": "icloud",
   "title": "iCloud",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "2025-06-09",
+  "hash": "8506fc3c888db513"
  },
  {
   "slug": "id-verifier",
   "title": "ID Verifier",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "2023-09-12",
+  "hash": "75596a00000a7c24"
  },
  {
   "slug": "imessage-apps-and-stickers",
   "title": "iMessage apps and stickers",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "2023-05-02",
+  "hash": "731a725ffbbe99fd"
  },
  {
   "slug": "live-photos",
   "title": "Live Photos",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "730de0dcf8521a8a"
  },
  {
   "slug": "mac-catalyst",
   "title": "Mac Catalyst",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "2023-05-02",
+  "hash": "b0a82be1c97dc547"
  },
  {
   "slug": "machine-learning",
   "title": "Machine learning",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "2026-06-08",
+  "hash": "5ef6897af56533eb"
  },
  {
   "slug": "maps",
   "title": "Maps",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "2024-12-18",
+  "hash": "3aa97c41b6464df3"
  },
  {
   "slug": "nfc",
   "title": "NFC",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "0be5d5ba3fc0b450"
  },
  {
   "slug": "photo-editing",
   "title": "Photo editing",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "0180b6d3364805b3"
  },
  {
   "slug": "researchkit",
   "title": "ResearchKit",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "2023-09-12",
+  "hash": "a8f6037b4ce41977"
  },
  {
   "slug": "shareplay",
   "title": "SharePlay",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "2026-09-09",
+  "hash": "51f0f5017a32424a"
  },
  {
   "slug": "shazamkit",
   "title": "ShazamKit",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "",
+  "hash": "f247666129654390"
  },
  {
   "slug": "sign-in-with-apple",
   "title": "Sign in with Apple",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "2022-09-14",
+  "hash": "8632be987d5f8f11"
  },
  {
   "slug": "siri",
   "title": "Siri",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "2026-06-08",
+  "hash": "f6f8edf46696282a"
  },
  {
   "slug": "tap-to-pay-on-iphone",
   "title": "Tap to Pay on iPhone",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "2024-05-07",
+  "hash": "2859768639873ba4"
  },
  {
   "slug": "voiceover",
   "title": "VoiceOver",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "2025-03-07",
+  "hash": "36a75444dd664f80"
  },
  {
   "slug": "wallet",
   "title": "Wallet",
   "area": "Technologies",
-  "group": ""
+  "group": "",
+  "updated": "2026-06-08",
+  "hash": "24aab919875b1f65"
  }
 ]

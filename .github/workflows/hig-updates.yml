@@ -1,0 +1,43 @@
+# Weekly check whether Apple changed HIG pages since the skills were last synced.
+# Opens (or refreshes) one tracking issue with the changed pages and the skill files to update.
+name: HIG updates
+
+on:
+  schedule:
+    - cron: "17 6 * * 1" # Mondays, 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compare the live HIG with the last sync
+        id: check
+        run: |
+          set +e
+          python3 -I scripts/check_updates.py > report.md
+          code=$?
+          set -e
+          cat report.md
+          if [ "$code" = 1 ]; then exit 1; fi
+          echo "changed=$([ "$code" = 2 ] && echo true || echo false)" >> "$GITHUB_OUTPUT"
+
+      - name: Open or update the tracking issue
+        if: steps.check.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="HIG changes since last sync"
+          number=$(gh issue list --state open --search "in:title \"$title\"" --json number --jq '.[0].number // empty')
+          if [ -n "$number" ]; then
+            gh issue edit "$number" --body-file report.md
+            echo "Updated issue #$number"
+          else
+            gh issue create --title "$title" --body-file report.md
+          fi
