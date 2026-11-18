@@ -1,0 +1,14 @@
+{
+  "name": "apple-hig-skills",
+  "owner": {
+    "name": "InvalidPandaa"
+  },
+  "description": "Agent skills for native Apple-platform UI and UX based on the current Human Interface Guidelines.",
+  "plugins": [
+    {
+      "name": "apple-hig",
+      "source": "./",
+      "description": "Design and review native Apple-platform UI according to the current Human Interface Guidelines."
+    }
+  ]
+}

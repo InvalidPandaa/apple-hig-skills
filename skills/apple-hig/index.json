@@ -1,0 +1,1034 @@
+[
+ {
+  "slug": "getting-started",
+  "title": "Getting started",
+  "area": "Getting started",
+  "group": ""
+ },
+ {
+  "slug": "design-principles",
+  "title": "Design principles",
+  "area": "Getting started",
+  "group": ""
+ },
+ {
+  "slug": "designing-for-ios",
+  "title": "Designing for iOS",
+  "area": "Getting started",
+  "group": ""
+ },
+ {
+  "slug": "designing-for-ipados",
+  "title": "Designing for iPadOS",
+  "area": "Getting started",
+  "group": ""
+ },
+ {
+  "slug": "designing-for-macos",
+  "title": "Designing for macOS",
+  "area": "Getting started",
+  "group": ""
+ },
+ {
+  "slug": "designing-for-tvos",
+  "title": "Designing for tvOS",
+  "area": "Getting started",
+  "group": ""
+ },
+ {
+  "slug": "designing-for-visionos",
+  "title": "Designing for visionOS",
+  "area": "Getting started",
+  "group": ""
+ },
+ {
+  "slug": "designing-for-watchos",
+  "title": "Designing for watchOS",
+  "area": "Getting started",
+  "group": ""
+ },
+ {
+  "slug": "designing-for-games",
+  "title": "Designing for games",
+  "area": "Getting started",
+  "group": ""
+ },
+ {
+  "slug": "designing-for-iphone-duo",
+  "title": "Designing for iPhone Duo",
+  "area": "Getting started",
+  "group": ""
+ },
+ {
+  "slug": "foundations",
+  "title": "Foundations",
+  "area": "Foundations",
+  "group": ""
+ },
+ {
+  "slug": "accessibility",
+  "title": "Accessibility",
+  "area": "Foundations",
+  "group": ""
+ },
+ {
+  "slug": "app-icons",
+  "title": "App icons",
+  "area": "Foundations",
+  "group": ""
+ },
+ {
+  "slug": "branding",
+  "title": "Branding",
+  "area": "Foundations",
+  "group": ""
+ },
+ {
+  "slug": "color",
+  "title": "Color",
+  "area": "Foundations",
+  "group": ""
+ },
+ {
+  "slug": "dark-mode",
+  "title": "Dark Mode",
+  "area": "Foundations",
+  "group": ""
+ },
+ {
+  "slug": "icons",
+  "title": "Icons",
+  "area": "Foundations",
+  "group": ""
+ },
+ {
+  "slug": "images",
+  "title": "Images",
+  "area": "Foundations",
+  "group": ""
+ },
+ {
+  "slug": "immersive-experiences",
+  "title": "Immersive experiences",
+  "area": "Foundations",
+  "group": ""
+ },
+ {
+  "slug": "inclusion",
+  "title": "Inclusion",
+  "area": "Foundations",
+  "group": ""
+ },
+ {
+  "slug": "layout",
+  "title": "Layout",
+  "area": "Foundations",
+  "group": ""
+ },
+ {
+  "slug": "materials",
+  "title": "Materials",
+  "area": "Foundations",
+  "group": ""
+ },
+ {
+  "slug": "motion",
+  "title": "Motion",
+  "area": "Foundations",
+  "group": ""
+ },
+ {
+  "slug": "privacy",
+  "title": "Privacy",
+  "area": "Foundations",
+  "group": ""
+ },
+ {
+  "slug": "right-to-left",
+  "title": "Right to left",
+  "area": "Foundations",
+  "group": ""
+ },
+ {
+  "slug": "sf-symbols",
+  "title": "SF Symbols",
+  "area": "Foundations",
+  "group": ""
+ },
+ {
+  "slug": "spatial-layout",
+  "title": "Spatial layout",
+  "area": "Foundations",
+  "group": ""
+ },
+ {
+  "slug": "typography",
+  "title": "Typography",
+  "area": "Foundations",
+  "group": ""
+ },
+ {
+  "slug": "writing",
+  "title": "Writing",
+  "area": "Foundations",
+  "group": ""
+ },
+ {
+  "slug": "patterns",
+  "title": "Patterns",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "charting-data",
+  "title": "Charting data",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "collaboration-and-sharing",
+  "title": "Collaboration and sharing",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "drag-and-drop",
+  "title": "Drag and drop",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "entering-data",
+  "title": "Entering data",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "feedback",
+  "title": "Feedback",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "file-management",
+  "title": "File management",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "going-full-screen",
+  "title": "Going full screen",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "launching",
+  "title": "Launching",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "live-viewing-apps",
+  "title": "Live-viewing apps",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "loading",
+  "title": "Loading",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "managing-accounts",
+  "title": "Managing accounts",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "managing-notifications",
+  "title": "Managing notifications",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "modality",
+  "title": "Modality",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "multitasking",
+  "title": "Multitasking",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "offering-help",
+  "title": "Offering help",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "onboarding",
+  "title": "Onboarding",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "playing-audio",
+  "title": "Playing audio",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "playing-haptics",
+  "title": "Playing haptics",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "playing-video",
+  "title": "Playing video",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "printing",
+  "title": "Printing",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "ratings-and-reviews",
+  "title": "Ratings and reviews",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "searching",
+  "title": "Searching",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "settings",
+  "title": "Settings",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "undo-and-redo",
+  "title": "Undo and redo",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "workouts",
+  "title": "Workouts",
+  "area": "Patterns",
+  "group": ""
+ },
+ {
+  "slug": "components",
+  "title": "Components",
+  "area": "Components",
+  "group": ""
+ },
+ {
+  "slug": "content",
+  "title": "Content",
+  "area": "Components",
+  "group": ""
+ },
+ {
+  "slug": "charts",
+  "title": "Charts",
+  "area": "Components",
+  "group": "Content"
+ },
+ {
+  "slug": "image-views",
+  "title": "Image views",
+  "area": "Components",
+  "group": "Content"
+ },
+ {
+  "slug": "text-views",
+  "title": "Text views",
+  "area": "Components",
+  "group": "Content"
+ },
+ {
+  "slug": "web-views",
+  "title": "Web views",
+  "area": "Components",
+  "group": "Content"
+ },
+ {
+  "slug": "layout-and-organization",
+  "title": "Layout and organization",
+  "area": "Components",
+  "group": ""
+ },
+ {
+  "slug": "boxes",
+  "title": "Boxes",
+  "area": "Components",
+  "group": "Layout and organization"
+ },
+ {
+  "slug": "collections",
+  "title": "Collections",
+  "area": "Components",
+  "group": "Layout and organization"
+ },
+ {
+  "slug": "column-views",
+  "title": "Column views",
+  "area": "Components",
+  "group": "Layout and organization"
+ },
+ {
+  "slug": "disclosure-controls",
+  "title": "Disclosure controls",
+  "area": "Components",
+  "group": "Layout and organization"
+ },
+ {
+  "slug": "labels",
+  "title": "Labels",
+  "area": "Components",
+  "group": "Layout and organization"
+ },
+ {
+  "slug": "lists-and-tables",
+  "title": "Lists and tables",
+  "area": "Components",
+  "group": "Layout and organization"
+ },
+ {
+  "slug": "lockups",
+  "title": "Lockups",
+  "area": "Components",
+  "group": "Layout and organization"
+ },
+ {
+  "slug": "outline-views",
+  "title": "Outline views",
+  "area": "Components",
+  "group": "Layout and organization"
+ },
+ {
+  "slug": "split-views",
+  "title": "Split views",
+  "area": "Components",
+  "group": "Layout and organization"
+ },
+ {
+  "slug": "tab-views",
+  "title": "Tab views",
+  "area": "Components",
+  "group": "Layout and organization"
+ },
+ {
+  "slug": "menus-and-actions",
+  "title": "Menus and actions",
+  "area": "Components",
+  "group": ""
+ },
+ {
+  "slug": "activity-views",
+  "title": "Activity views",
+  "area": "Components",
+  "group": "Menus and actions"
+ },
+ {
+  "slug": "buttons",
+  "title": "Buttons",
+  "area": "Components",
+  "group": "Menus and actions"
+ },
+ {
+  "slug": "context-menus",
+  "title": "Context menus",
+  "area": "Components",
+  "group": "Menus and actions"
+ },
+ {
+  "slug": "dock-menus",
+  "title": "Dock menus",
+  "area": "Components",
+  "group": "Menus and actions"
+ },
+ {
+  "slug": "edit-menus",
+  "title": "Edit menus",
+  "area": "Components",
+  "group": "Menus and actions"
+ },
+ {
+  "slug": "home-screen-quick-actions",
+  "title": "Home Screen quick actions",
+  "area": "Components",
+  "group": "Menus and actions"
+ },
+ {
+  "slug": "menus",
+  "title": "Menus",
+  "area": "Components",
+  "group": "Menus and actions"
+ },
+ {
+  "slug": "ornaments",
+  "title": "Ornaments",
+  "area": "Components",
+  "group": "Menus and actions"
+ },
+ {
+  "slug": "pop-up-buttons",
+  "title": "Pop-up buttons",
+  "area": "Components",
+  "group": "Menus and actions"
+ },
+ {
+  "slug": "pull-down-buttons",
+  "title": "Pull-down buttons",
+  "area": "Components",
+  "group": "Menus and actions"
+ },
+ {
+  "slug": "the-menu-bar",
+  "title": "The menu bar",
+  "area": "Components",
+  "group": "Menus and actions"
+ },
+ {
+  "slug": "toolbars",
+  "title": "Toolbars",
+  "area": "Components",
+  "group": "Menus and actions"
+ },
+ {
+  "slug": "navigation-and-search",
+  "title": "Navigation and search",
+  "area": "Components",
+  "group": ""
+ },
+ {
+  "slug": "path-controls",
+  "title": "Path controls",
+  "area": "Components",
+  "group": "Navigation and search"
+ },
+ {
+  "slug": "search-fields",
+  "title": "Search fields",
+  "area": "Components",
+  "group": "Navigation and search"
+ },
+ {
+  "slug": "sidebars",
+  "title": "Sidebars",
+  "area": "Components",
+  "group": "Navigation and search"
+ },
+ {
+  "slug": "tab-bars",
+  "title": "Tab bars",
+  "area": "Components",
+  "group": "Navigation and search"
+ },
+ {
+  "slug": "token-fields",
+  "title": "Token fields",
+  "area": "Components",
+  "group": "Navigation and search"
+ },
+ {
+  "slug": "presentation",
+  "title": "Presentation",
+  "area": "Components",
+  "group": ""
+ },
+ {
+  "slug": "action-sheets",
+  "title": "Action sheets",
+  "area": "Components",
+  "group": "Presentation"
+ },
+ {
+  "slug": "alerts",
+  "title": "Alerts",
+  "area": "Components",
+  "group": "Presentation"
+ },
+ {
+  "slug": "page-controls",
+  "title": "Page controls",
+  "area": "Components",
+  "group": "Presentation"
+ },
+ {
+  "slug": "panels",
+  "title": "Panels",
+  "area": "Components",
+  "group": "Presentation"
+ },
+ {
+  "slug": "popovers",
+  "title": "Popovers",
+  "area": "Components",
+  "group": "Presentation"
+ },
+ {
+  "slug": "scroll-views",
+  "title": "Scroll views",
+  "area": "Components",
+  "group": "Presentation"
+ },
+ {
+  "slug": "sheets",
+  "title": "Sheets",
+  "area": "Components",
+  "group": "Presentation"
+ },
+ {
+  "slug": "windows",
+  "title": "Windows",
+  "area": "Components",
+  "group": "Presentation"
+ },
+ {
+  "slug": "selection-and-input",
+  "title": "Selection and input",
+  "area": "Components",
+  "group": ""
+ },
+ {
+  "slug": "color-wells",
+  "title": "Color wells",
+  "area": "Components",
+  "group": "Selection and input"
+ },
+ {
+  "slug": "combo-boxes",
+  "title": "Combo boxes",
+  "area": "Components",
+  "group": "Selection and input"
+ },
+ {
+  "slug": "digit-entry-views",
+  "title": "Digit entry views",
+  "area": "Components",
+  "group": "Selection and input"
+ },
+ {
+  "slug": "image-wells",
+  "title": "Image wells",
+  "area": "Components",
+  "group": "Selection and input"
+ },
+ {
+  "slug": "pickers",
+  "title": "Pickers",
+  "area": "Components",
+  "group": "Selection and input"
+ },
+ {
+  "slug": "segmented-controls",
+  "title": "Segmented controls",
+  "area": "Components",
+  "group": "Selection and input"
+ },
+ {
+  "slug": "sliders",
+  "title": "Sliders",
+  "area": "Components",
+  "group": "Selection and input"
+ },
+ {
+  "slug": "steppers",
+  "title": "Steppers",
+  "area": "Components",
+  "group": "Selection and input"
+ },
+ {
+  "slug": "text-fields",
+  "title": "Text fields",
+  "area": "Components",
+  "group": "Selection and input"
+ },
+ {
+  "slug": "toggles",
+  "title": "Toggles",
+  "area": "Components",
+  "group": "Selection and input"
+ },
+ {
+  "slug": "virtual-keyboards",
+  "title": "Virtual keyboards",
+  "area": "Components",
+  "group": "Selection and input"
+ },
+ {
+  "slug": "status",
+  "title": "Status",
+  "area": "Components",
+  "group": ""
+ },
+ {
+  "slug": "activity-rings",
+  "title": "Activity rings",
+  "area": "Components",
+  "group": "Status"
+ },
+ {
+  "slug": "gauges",
+  "title": "Gauges",
+  "area": "Components",
+  "group": "Status"
+ },
+ {
+  "slug": "progress-indicators",
+  "title": "Progress indicators",
+  "area": "Components",
+  "group": "Status"
+ },
+ {
+  "slug": "rating-indicators",
+  "title": "Rating indicators",
+  "area": "Components",
+  "group": "Status"
+ },
+ {
+  "slug": "system-experiences",
+  "title": "System experiences",
+  "area": "Components",
+  "group": ""
+ },
+ {
+  "slug": "app-shortcuts",
+  "title": "App Shortcuts",
+  "area": "Components",
+  "group": "System experiences"
+ },
+ {
+  "slug": "complications",
+  "title": "Complications",
+  "area": "Components",
+  "group": "System experiences"
+ },
+ {
+  "slug": "controls",
+  "title": "Controls",
+  "area": "Components",
+  "group": "System experiences"
+ },
+ {
+  "slug": "live-activities",
+  "title": "Live Activities",
+  "area": "Components",
+  "group": "System experiences"
+ },
+ {
+  "slug": "notifications",
+  "title": "Notifications",
+  "area": "Components",
+  "group": "System experiences"
+ },
+ {
+  "slug": "snippets",
+  "title": "Snippets",
+  "area": "Components",
+  "group": "System experiences"
+ },
+ {
+  "slug": "status-bars",
+  "title": "Status bars",
+  "area": "Components",
+  "group": "System experiences"
+ },
+ {
+  "slug": "top-shelf",
+  "title": "Top Shelf",
+  "area": "Components",
+  "group": "System experiences"
+ },
+ {
+  "slug": "watch-faces",
+  "title": "Watch faces",
+  "area": "Components",
+  "group": "System experiences"
+ },
+ {
+  "slug": "widgets",
+  "title": "Widgets",
+  "area": "Components",
+  "group": "System experiences"
+ },
+ {
+  "slug": "inputs",
+  "title": "Inputs",
+  "area": "Inputs",
+  "group": ""
+ },
+ {
+  "slug": "action-button",
+  "title": "Action button",
+  "area": "Inputs",
+  "group": ""
+ },
+ {
+  "slug": "apple-pencil-and-scribble",
+  "title": "Apple Pencil and Scribble",
+  "area": "Inputs",
+  "group": ""
+ },
+ {
+  "slug": "camera-control",
+  "title": "Camera Control",
+  "area": "Inputs",
+  "group": ""
+ },
+ {
+  "slug": "digital-crown",
+  "title": "Digital Crown",
+  "area": "Inputs",
+  "group": ""
+ },
+ {
+  "slug": "eyes",
+  "title": "Eyes",
+  "area": "Inputs",
+  "group": ""
+ },
+ {
+  "slug": "focus-and-selection",
+  "title": "Focus and selection",
+  "area": "Inputs",
+  "group": ""
+ },
+ {
+  "slug": "game-controls",
+  "title": "Game controls",
+  "area": "Inputs",
+  "group": ""
+ },
+ {
+  "slug": "gestures",
+  "title": "Gestures",
+  "area": "Inputs",
+  "group": ""
+ },
+ {
+  "slug": "gyro-and-accelerometer",
+  "title": "Gyroscope and accelerometer",
+  "area": "Inputs",
+  "group": ""
+ },
+ {
+  "slug": "keyboards",
+  "title": "Keyboards",
+  "area": "Inputs",
+  "group": ""
+ },
+ {
+  "slug": "nearby-interactions",
+  "title": "Nearby interactions",
+  "area": "Inputs",
+  "group": ""
+ },
+ {
+  "slug": "pointing-devices",
+  "title": "Pointing devices",
+  "area": "Inputs",
+  "group": ""
+ },
+ {
+  "slug": "remotes",
+  "title": "Remotes",
+  "area": "Inputs",
+  "group": ""
+ },
+ {
+  "slug": "technologies",
+  "title": "Technologies",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "airplay",
+  "title": "AirPlay",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "always-on",
+  "title": "Always On",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "app-clips",
+  "title": "App Clips",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "apple-in-app-purchase",
+  "title": "Apple In-App Purchase",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "apple-pay",
+  "title": "Apple Pay",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "augmented-reality",
+  "title": "Augmented reality",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "carekit",
+  "title": "CareKit",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "carplay",
+  "title": "CarPlay",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "game-center",
+  "title": "Game Center",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "generative-ai",
+  "title": "Generative AI",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "healthkit",
+  "title": "HealthKit",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "homekit",
+  "title": "HomeKit",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "icloud",
+  "title": "iCloud",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "id-verifier",
+  "title": "ID Verifier",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "imessage-apps-and-stickers",
+  "title": "iMessage apps and stickers",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "live-photos",
+  "title": "Live Photos",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "mac-catalyst",
+  "title": "Mac Catalyst",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "machine-learning",
+  "title": "Machine learning",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "maps",
+  "title": "Maps",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "nfc",
+  "title": "NFC",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "photo-editing",
+  "title": "Photo editing",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "researchkit",
+  "title": "ResearchKit",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "shareplay",
+  "title": "SharePlay",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "shazamkit",
+  "title": "ShazamKit",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "sign-in-with-apple",
+  "title": "Sign in with Apple",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "siri",
+  "title": "Siri",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "tap-to-pay-on-iphone",
+  "title": "Tap to Pay on iPhone",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "voiceover",
+  "title": "VoiceOver",
+  "area": "Technologies",
+  "group": ""
+ },
+ {
+  "slug": "wallet",
+  "title": "Wallet",
+  "area": "Technologies",
+  "group": ""
+ }
+]

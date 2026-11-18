@@ -1,0 +1,8 @@
+{
+  "name": "apple-hig",
+  "description": "Agent skills for designing and reviewing native Apple-platform UI and UX (SwiftUI, UIKit, AppKit) according to the current Human Interface Guidelines, including Liquid Glass, with live lookup of the official guidelines.",
+  "version": "0.1.0",
+  "author": { "name": "InvalidPandaa" },
+  "license": "MIT",
+  "keywords": ["apple", "hig", "human-interface-guidelines", "swiftui", "ios", "macos", "visionos", "watchos", "liquid-glass", "design", "ux", "accessibility"]
+}
