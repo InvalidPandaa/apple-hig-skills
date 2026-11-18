@@ -27,5 +27,5 @@ These were judged by hand against the grader criteria. Agents got the same promp
 |---|---|---|---|---|
 | settings-brief-conflict | fail: built the theme picker without comment | fail: same | pass: conflict listed first, linked | pass |
 | mac-port | fail: no undo, no search | – | pass | – |
-| review-recipe-detail | fail: grouped by topic, not severity; no links | fail: no links | pass: Blocker/Major/Minor, 12 links | – |
-| liquid-glass-editor | fail: `.plain` + `glassEffect` | fail: `.tint(.blue)`, `.plain` + `glassEffect` | pass: `.buttonStyle(.glass)`, accent tint | – |
+| review-recipe-detail | fail: grouped by topic, not severity; no links | fail: severity tags, but no HIG links | pass: Blocker/Major/Minor, 12 links | – |
+| liquid-glass-editor | fail: `.plain` + `glassEffect` | fail: `.tint(.blue)`, manual `glassEffect` on buttons | pass: `.buttonStyle(.glass)`, accent tint | – |
