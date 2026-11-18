@@ -69,6 +69,8 @@ When you cite the HIG, link the page and section (`.../sheets#Best-practices`). 
 | `hig-patterns` | Flows: onboarding, permissions, loading, feedback, undo, search, settings, modality, AI features |
 | `hig-accessibility` | VoiceOver, Dynamic Type, contrast, motion, inclusion, right-to-left |
 | `hig-review` | Auditing code or screenshots against the HIG, with a fixed findings format |
+| `hig-design` | A design spec (structure, components, states, accessibility, sources) before code |
+| `hig-lookup` | Answering "what does the HIG say about X" from the live pages |
 
 ## Common mistakes
 

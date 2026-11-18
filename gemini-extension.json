@@ -1,0 +1,5 @@
+{
+  "name": "apple-hig",
+  "version": "0.1.0",
+  "description": "Agent skills for designing and reviewing native Apple-platform UI and UX (SwiftUI, UIKit, AppKit) according to the current Human Interface Guidelines, including Liquid Glass, with live lookup of the official guidelines."
+}

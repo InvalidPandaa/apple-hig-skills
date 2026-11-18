@@ -9,10 +9,11 @@ A review is useful when the person can act on it in order: the worst problems fi
 
 ## Process
 
-1. **Establish the context.** Platform(s), minimum OS (26+ means Liquid Glass), and the screen's job. If the input doesn't say, infer it from the code (`.topBarTrailing` means iOS, `NSWindow` means macOS) and state your assumption in the report header.
-2. **Walk the checklist below** from top to bottom. Read the code or image for each area; don't stop at the first few findings.
-3. **Verify every rule you cite that is not a basic.** Fetch the section with `python3 ../apple-hig/scripts/hig.py fetch <slug> --section "<Heading>"` and use the page and heading you actually read for the link. Leave out anything you couldn't back with a page.
-4. **Rank the findings** by severity, then write the report in the format below.
+1. **Find the target.** Review what the person points to: files, a folder, a screenshot, a PR. If they name nothing, review the UI files changed in the working tree (`git diff --name-only`, Swift files), or ask which screen to review if nothing changed. Read only; don't edit files during the review.
+2. **Establish the context.** Platform(s), minimum OS (26+ means Liquid Glass), and the screen's job. If the input doesn't say, infer it from the code (`.topBarTrailing` means iOS, `NSWindow` means macOS) and state your assumption in the report header.
+3. **Walk the checklist below** from top to bottom. Read the code or image for each area; don't stop at the first few findings.
+4. **Verify every rule you cite that is not a basic.** Fetch the section with `python3 ../apple-hig/scripts/hig.py fetch <slug> --section "<Heading>"` and use the page and heading you actually read for the link. Leave out anything you couldn't back with a page.
+5. **Rank the findings** by severity, then write the report in the format below.
 
 ## Severity
 
@@ -46,7 +47,7 @@ Summary: <n> blocker, <n> major, <n> minor. <one sentence on the biggest theme>
 <requirements in the brief that contradict the HIG, with the compliant alternative; omit the section if none>
 ```
 
-After the report, give corrected code if the person asked for it or the input was code. Merge findings that share one cause (for example "custom header replaces the navigation bar" covers missing back swipe, missing glass and small targets) into one finding and list the effects in its Rule line.
+After the report, give corrected code if the person asked for it or the input was code, and offer to apply the fixes. Merge findings that share one cause (for example "custom header replaces the navigation bar" covers missing back swipe, missing glass and small targets) into one finding and list the effects in its Rule line.
 
 ## Checklist
 

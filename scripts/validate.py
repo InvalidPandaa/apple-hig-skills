@@ -5,7 +5,8 @@
   python3 -I scripts/validate.py --online   also check HIG anchors, API links, and copied HIG text
 
 Offline: SKILL.md frontmatter (name = folder, description starts with "Use when", length),
-size limits, relative links, HIG slugs known to index.json, plugin manifests parse.
+size limits, relative links, HIG slugs known to index.json, Claude and Gemini manifests parse
+and agree on name and version.
 Online: every linked HIG heading anchor exists, every /documentation link resolves, and no run of
 8+ consecutive words is copied from a linked HIG page.
 """
@@ -39,7 +40,7 @@ def frontmatter(text):
 
 
 def md_files():
-    for base in ("skills", "commands", "agents"):
+    for base in ("skills", "agents"):
         for dirpath, _, files in os.walk(os.path.join(ROOT, base)):
             for f in files:
                 if f.endswith(".md"):
@@ -47,11 +48,15 @@ def md_files():
 
 
 def check_offline():
-    for manifest in ("plugin.json", "marketplace.json"):
+    manifests = {}
+    for rel in (".claude-plugin/plugin.json", ".claude-plugin/marketplace.json", "gemini-extension.json"):
         try:
-            json.load(open(os.path.join(ROOT, ".claude-plugin", manifest)))
+            manifests[rel] = json.load(open(os.path.join(ROOT, rel)))
         except Exception as e:
-            errors.append(f".claude-plugin/{manifest}: {e}")
+            errors.append(f"{rel}: {e}")
+    claude, gemini = manifests.get(".claude-plugin/plugin.json", {}), manifests.get("gemini-extension.json", {})
+    if claude and gemini and (claude.get("version"), claude.get("name")) != (gemini.get("version"), gemini.get("name")):
+        errors.append("gemini-extension.json: name/version differ from .claude-plugin/plugin.json")
 
     index = {e["slug"] for e in json.load(open(os.path.join(ROOT, "skills", "apple-hig", "index.json")))}
     skills_dir = os.path.join(ROOT, "skills")
