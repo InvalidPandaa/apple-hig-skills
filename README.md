@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/logo.svg" width="128" height="128" alt="">
+
 # apple-hig-skills
 
 **Teach your coding agent to build native Apple apps that feel like Apple made them.**
