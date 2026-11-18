@@ -24,11 +24,6 @@
   <g clip-path="url(#sq)">
     <rect width="1024" height="1024" fill="url(#bg)"/>
     <rect width="1024" height="1024" fill="url(#glow)"/>
-    <g stroke="#fff" stroke-opacity=".13" stroke-width="3" fill="none">
-      <circle cx="512" cy="512" r="384"/><circle cx="512" cy="512" r="236"/>
-      <line x1="0" y1="0" x2="1024" y2="1024"/><line x1="1024" y1="0" x2="0" y2="1024"/>
-      <line x1="512" y1="0" x2="512" y2="1024"/><line x1="0" y1="512" x2="1024" y2="512"/>
-    </g>
     <g transform="translate(26 -14)">
       <g filter="url(#shadow)">
         <rect x="350" y="202" width="460" height="460" rx="104" fill="url(#pane)" opacity=".42" stroke="url(#edge)" stroke-width="4"/>
